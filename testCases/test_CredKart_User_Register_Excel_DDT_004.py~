@@ -25,8 +25,6 @@ class Test_User_Login_Excel_DDT_Class_002:
     @pytest.mark.regression
     @pytest.mark.group1
     @pytest.mark.flaky(reruns=0, reruns_delay=2)
-    @pytest.mark.skipif(not TestCase_Status.get_status("test_verify_CredKart_Url_001"),
-                        reason="test_verify_CredKart_Url_001 is failed")
     def test_CredKart_User_Login_Excel_DDT_004(self):
         self.log.info("Testcase test_CredKart_User_Login_Excel_DDT_004 is started")
         """Test verify_user_login method with valid credentials."""

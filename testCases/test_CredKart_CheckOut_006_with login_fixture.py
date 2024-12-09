@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from pageObjects.CheckOut_Page import CheckOut_class
 from utilities.Logger import log_generator_class
 from utilities.ReadConfig import ReadConfigClass
+from utilities.additional_utilities import additional_utilities_class
 
 
 @pytest.mark.usefixtures("driver_setup")

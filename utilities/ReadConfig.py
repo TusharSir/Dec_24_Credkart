@@ -2,7 +2,7 @@ import configparser
 
 config = configparser.RawConfigParser()
 #config.read('.\\Configurations\\config.ini')
-config.read(r'D:\Batch Notes\PythonAutomation\CT20\Credkart_Pytest_Dec\Configurations\config.ini')
+config.read('.\\Configurations\\config.ini')
 
 
 class ReadConfigClass:

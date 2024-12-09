@@ -53,7 +53,7 @@ def pytest_metadata(metadata):
     ("Credencetest@test.com1", "Credence@123", "login_fail"),
     ("Credencetest@test.com", "Credence@1231", "login_fail"),
     ("Credencetest@test.com1", "Credence@1231", "login_fail"),
-("Credencetest@test.com1", "Credence@1231", "login_pass")
+("Credencetest@test.com1", "Credence@1231", "login_fail")
 ])
 def get_data_Credkart_login(request):
     return request.param

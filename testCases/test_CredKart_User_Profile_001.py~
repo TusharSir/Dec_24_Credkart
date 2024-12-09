@@ -28,6 +28,9 @@ class Test_User_Profile_Class_001:
     log = log_generator_class.loggen_method()
     # Initializing the driver
     driver = None
+
+
+    # Use all decorators in allure report
     """Test cases for the UserProfile class."""
     @allure.description("Validating the CredKart URL")
     @allure.title("TC_001 : Validating the CredKart URL")

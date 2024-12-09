@@ -47,7 +47,7 @@ class Test_User_Profile_Class_001:
         self.log.info("Opening Browser")
         self.log.info(f"Going to CredKart URL ->{self.homepage_url}")
         self.log.info("Checking Page Title")
-        if self.driver.title == "CredKart1":
+        if self.driver.title == "CredKart":
 
             self.log.info(f"Page Title:'{self.driver.title}' is  matches with expected title")
             self.log.info("Taking Screenshot")
